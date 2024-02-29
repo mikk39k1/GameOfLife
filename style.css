@@ -1,0 +1,13 @@
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 20px);
+    gap: 1px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
